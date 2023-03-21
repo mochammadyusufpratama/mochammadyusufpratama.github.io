@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat&display=swap');
+
+.main {
+    font-family: 'Montserrat', sans-serif;
+    color: #121212;
+}
+
+.navbar nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #121212;
+    padding: 0 8rem 0 8rem;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+                0px 2px 4px rgba(0,0,0,0.1), 
+                0px 4px 8px rgba(0,0,0,0.1), 
+                0px 8px 16px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ebe5e5;
+    font-family: 'Bungee', cursive;
+}
+
+.navbar nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #cccbcb;
+    transition: 0.4s;
+}
+
+.navbar nav ul li a:hover {
+    color: #ffffff;
+}
+
+.sec1 {
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    padding: 0 8rem 0 8rem;
+}
+
+.sec1 .desc p {
+    padding-top: 2rem;
+    width: 60%;
+    font-size: 16px;
+}
+
+.desc button {
+    margin-top: 2rem;
+    font-size: 16px;
+    padding: 5px 13px 4px 13px;
+    border: 2px solid #121212;
+    background-color: #ffffff;
+    color: #121212;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.desc button:hover {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.sec2 {
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    padding: 0 8rem 0 8rem;
+}
+
+.sec2 .desc p {
+    padding-top: 2rem;
+    width: 50%;
+    font-size: 16px;
+}
+
+.img {
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8rem 0 8rem;
+}
+
+.img div {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.pict, .pict1, .pict2 {
+    width: 300px;
+    height: 200px;
+    background-color: #121212;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+                0px 2px 4px rgba(0,0,0,0.1), 
+                0px 4px 8px rgba(0,0,0,0.1), 
+                0px 8px 16px rgba(0,0,0,0.1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.pict:hover, .pict1:hover, .pict2:hover {
+    transform: translateY(-10px);
+    z-index: 1;
+}
+
+.contact {
+    height: 100vh;
+    align-items: left;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8rem 0 8rem;
+}
+
+.contact h1 {
+    margin-bottom: 2rem;
+}
+
+.contact div {
+    width: 100%;
+    display: flex;
+}
+
+.grid1 {
+    display:flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.grid1 div {
+    display: flex;
+    flex-direction:column;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.grid1 div input {
+    padding: 5px 5px 5px 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #121212;
+    color: #121212;
+}
+
+.grid1 div textarea {
+    padding: 5px 5px 5px 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    border: 1px solid #121212;
+    border-radius: 3px;
+    color: #121212;
+}
+
+.grid1 div input:focus, .grid1 div textarea:focus {
+    outline: none;
+}
+
+.grid1 button {
+    font-size: 16px;
+    padding: 5px 13px 4px 13px;
+    border: 1px solid #121212;
+    background-color: #ffffff;
+    color: #121212;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 75%;
+}
+
+.grid1 button:hover {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.grid2 {
+    height: 100%;
+    background-color: #121212;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+                0px 2px 4px rgba(0,0,0,0.1), 
+                0px 4px 8px rgba(0,0,0,0.1), 
+                0px 8px 16px rgba(0,0,0,0.1);
+}
+
+.footer {
+    height: 40vh;
+    align-items: left;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8rem 0 8rem;
+}
+
+.footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer hr {
+    margin-top: 2rem;
+}
+
+.footer p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.about {
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    padding: 0 8rem 0 8rem;
+}
+
+.about .desc p {
+    padding-top: 2rem;
+    width: 100%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.porto {
+    margin-top: 130px;
+    align-items: left;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 8rem 0 8rem;
+}
+
+.porto h1 {
+    margin-bottom: 1rem;
+}
+
+.porto div {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}

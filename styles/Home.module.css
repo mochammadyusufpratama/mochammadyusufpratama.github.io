@@ -162,7 +162,7 @@
     transform: translateX(4px);
   }
 }
-
+ 
 @media (prefers-reduced-motion) {
   .thirteen::before {
     animation: none;
