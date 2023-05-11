@@ -11,7 +11,10 @@ export default function navbar() {
                     <li><Link href="/portofolio">Portofolio</Link></li>
                     <li><Link href="/contact">Contact</Link></li>
                 </ul>
+                <div className={styles.hamburger}>
+                    <span></span><span></span><span></span>
+                </div>
             </nav>
-        </div >
+        </div>
     );
 }

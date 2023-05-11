@@ -22,6 +22,7 @@ export default function Home() {
             <h1>Description</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae iste officia consectetur odio libero quidem, unde quisquam corporis, soluta eius doloribus a et labore illo ratione non earum. Fugiat, optio asperiores! Laudantium labore necessitatibus illo inventore nisi assumenda voluptatibus ea sequi incidunt quam fuga ipsa, dolor reiciendis. Ea consequuntur praesentium beatae ad animi, similique eos nihil at odit neque doloribus excepturi inventore cumque commodi minus, natus ducimus nisi, dolorem reiciendis.</p>
           </div>
+          <div className={styles.photo} ></div>
         </div>
         <div className={styles.img}>
           <h1>Images</h1>
